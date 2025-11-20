@@ -31,7 +31,7 @@ jobs:
           - name: Checkout Content Repo
             uses: actions/checkout@v4
             with:
-             repository: YOUR_USERNAME/YOUR_CONTENT_REPO# <-- 修改这里
+             repository: petemeng/Notes_for_Peter # <-- 修改这里
               token: ${{secrets.ACCESS_TOKEN}}
               path: content
 
